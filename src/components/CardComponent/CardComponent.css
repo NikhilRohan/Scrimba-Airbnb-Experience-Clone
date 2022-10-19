@@ -1,0 +1,43 @@
+.cardComponent {
+  margin-left: 20px;
+  max-width: 176px;
+}
+.pictureSection {
+  width: 176px;
+  height: 235px;
+}
+.ratingSection {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 300;
+  max-width: 50%;
+  justify-content: space-between;
+  line-height: 10px;
+}
+.ratingSection p {
+  margin: 7px 0px;
+}
+.starSection {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+.ratings {
+  color: #222222;
+}
+.reviews,
+.country {
+  color: #918e9b;
+}
+.cardTitle {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 150%;
+  color: #222222;
+}
+.cost {
+  font-size: 12px;
+  line-height: 150%;
+  color: #222222;
+}
