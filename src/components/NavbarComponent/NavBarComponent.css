@@ -1,0 +1,13 @@
+.navbarComponent {
+  height: 70px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+.airbnbLogo {
+  width: 82px;
+  max-width: 82px;
+  height: 26px;
+  margin-left: 40px;
+}
