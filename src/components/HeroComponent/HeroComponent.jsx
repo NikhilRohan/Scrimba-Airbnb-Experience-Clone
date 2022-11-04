@@ -4,7 +4,7 @@ import "/src/components/HeroComponent/HeroComponent.css";
 const HeroComponent = () => {
   return (
     <div className="heroComponent">
-      <div class="photoContainer">
+      <div className="photoContainer">
         <img src={PhotoGrid} className="photoGridClass" />
       </div>
       <div className="infoBody">

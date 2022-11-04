@@ -6,16 +6,7 @@ import cardData from "/src/data.js";
 
 function App() {
   const cardElements = cardData.map((eachCardData) => {
-    return (
-      <CardComponent
-        img={eachCardData.coverImg}
-        rating={eachCardData.stats.rating}
-        reviewCount={eachCardData.stats.reviewCount}
-        location={eachCardData.location}
-        title={eachCardData.title}
-        price={eachCardData.price}
-      />
-    );
+    return <CardComponent key={eachCardData.id} {...eachCardData} />;
   });
   return (
     <div>

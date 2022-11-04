@@ -4,7 +4,7 @@ import AirbnbLogo from "/src/assets/airbnb-logo.png";
 const NavBarComponent = () => {
   return (
     <nav className="navbarComponent">
-      <img src={AirbnbLogo} class="airbnbLogo" />
+      <img src={AirbnbLogo} className="airbnbLogo" />
     </nav>
   );
 };

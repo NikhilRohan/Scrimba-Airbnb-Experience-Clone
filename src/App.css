@@ -1,0 +1,14 @@
+/* hiding scrollbar 
+starts here */
+.cardComponentGroup::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.cardComponentGroup {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+/* ends here */
+.cardComponentGroup {
+  display: flex;
+  overflow: scroll;
+}
